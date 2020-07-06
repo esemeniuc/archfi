@@ -1780,7 +1780,7 @@ archdidownload(){
 	txtselectserver="Select source server :"
 	txtback="Back"
 	options=()
-	options+=("sourceforge.net" "recommended")
+	options+=("sourceforge.net" "(recommended)")
 	options+=("github.com" "")
 	sel=$(whiptail --backtitle "${apptitle}" --title "${txtselectserver}" --menu "" --cancel-button "${txtback}" 0 0 0 \
 		"${options[@]}" \
